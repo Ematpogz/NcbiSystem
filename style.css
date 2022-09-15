@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+body{
+    margin-left: 150px;
+    margin-right: 150px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/003/428/335/original/tropical-beach-sunset-background-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+
+}
+.school{
+    color: orange;
+font-size: 25px;
+font-weight: bold;
+
+}
+ul{
+  display: flex;
+  justify-content: space-between;
+}
+li{
+text-decoration: none;
+list-style: none;
+}
+a{
+    border-radius: 20px;
+    padding: 10px;
+    color: gold;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 50px;
+}
+a:hover{
+    border-radius: 20px;
+    background-color: black;
+    transition-duration: 1s;
+}
+img{
+    margin-top: 30px;
+    height: 500px;
+    width: 600px;
+}
+.section_1{
+    display: flex;
+}
+.about{
+    margin: 70px;
+    font-size: 25px;
+    color: gold;
+    font-size: 30px;
+}
+.continue{
+    position: absolute;
+    border: 1px solid black;
+    margin-left: 200px;
+    font-size: 25px;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+.continue:hover{
+    background-color: black;
+    transition-duration: 0.5s;
+}
+.join{
+    font-weight: bold;
+}
+.continue a{
+    color: gold;
+    text-align: center;
+    
+}
